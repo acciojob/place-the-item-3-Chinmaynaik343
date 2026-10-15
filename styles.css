@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or space-around / space-evenly based on exact spacing preference */
+  flex-wrap: wrap;
+}
